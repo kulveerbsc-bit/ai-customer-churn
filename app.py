@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load saved AI model
-model = joblib.load("../model/churn_model.pkl")
+model = joblib.load("churn_model.pkl")
 
 st.title("🤖 AI Customer Churn Predictor")
 st.write("Enter customer details to predict churn risk.")
